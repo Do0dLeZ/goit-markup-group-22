@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalizer.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
     <title>Portfolio</title>
   </head>
   <body class="body">
     <!-- Header -->
-    <header class="header container">
-      <a href="" class="logo-link link"
-        ><span class="logo-first-word">Web</span> Studio
-      </a>
+
+    <header class="head">
       <nav class="navigation">
-        <ul class="nav-items all-list">
+        <a href="" class="logo-link link"
+          ><span class="logo-first-word">Web</span> Studio
+        </a>
+        <ul class="nav-items">
           <li class="nav-item">
             <a href="./index.html" class="nav-link link">Студия</a>
           </li>
@@ -31,34 +29,46 @@
           </li>
         </ul>
       </nav>
-      <ul class="contact-items all-list">
+      <ul class="contact-items">
         <li class="contscts-item">
-          <a href="" class="nav-link email-icon link"> info@devstudio.com</a>
+          <a href="" class="nav-link link"
+            ><img
+              src="./images/header/icon-email.svg"
+              class="contact-icon"
+              alt="email:"
+            />
+            info@devstudio.com</a
+          >
         </li>
         <li class="contscts-item">
-          <a href="" class="nav-link phone-icon link">+38 096 111 11 11</a>
+          <a href="" class="nav-link link"
+            ><img
+              src="./images/header/icon-phone.svg"
+              class="contact-icon"
+              alt="phone: "
+            />
+            +38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
 
     <!-- MAIN  -->
     <main>
-      <section class="section-portfolio container">
+      <section class="section-portfolio">
         <nav class="section-nav">
           <ul class="section-nav-list">
-            <li class="section-nav-item">
-              <a href="" class="item-link link active-filter">Все</a>
-            </li>
-            <li class="section-nav-item">
+            <li class="nav-item"><a href="" class="item-link link">Все</a></li>
+            <li class="nav-item">
               <a href="" class="item-link link">Веб-сайты</a>
             </li>
-            <li class="section-nav-item">
+            <li class="nav-item">
               <a href="" class="item-link link">Приложения</a>
             </li>
-            <li class="section-nav-item">
+            <li class="nav-item">
               <a href="" class="item-link link">Дизайн</a>
             </li>
-            <li class="section-nav-item">
+            <li class="nav-item">
               <a href="" class="item-link link">Маркетинг</a>
             </li>
           </ul>
@@ -154,55 +164,64 @@
     <!-- Footer -->
 
     <footer class="footer">
-      <div class="container footer-flex">
-        <div class="footer-address">
-          <a href="/" class="logo-link link">
-            <span class="logo-first-word">Web</span> Studio
-          </a>
-          <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-          <p class="email">info@example.com</p>
-          <p class="phone-number">+38 099 111 11 11</p>
-        </div>
-        <div class="footer-info">
-          <p class="footer-item-title">присоединяйтесь</p>
-          <ul class="list-social-network">
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/instagram.svg"
-                  alt="instagram"
-                />
-              </a>
-            </li>
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/twitter.svg"
-                  alt="twitter"
-                />
-              </a>
-            </li>
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/facebook.svg"
-                  alt="facebook"
-                />
-              </a>
-            </li>
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/linkedin.svg"
-                  alt="linkedin"
-                />
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="footer-form"></div>
+      <!-- <ul class="list-footer"> -->
+      <!-- Contact Info -->
+      <!-- <li class="footer-items"></li> -->
+      <!-- Social Networks -->
+      <!-- <li class="footer-items">
+            
+            </ul>
+          </li> -->
+      <!-- TODO Form -->
+      <!-- <li class="footer-items"></li>
+        </ul> -->
+      <div class="footer-address">
+        <a href="/" class="logo">
+          <span class="logo-first-word">Web</span> Studio
+        </a>
+        <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <p class="email">info@example.com</p>
+        <p class="phone-number">+38 099 111 11 11</p>
       </div>
-      <!-- <p class="creator">2020 | Developed by GoIT Students</p> -->
+      <div class="footer-info">
+        <p class="footer-item-title">присоединяйтесь</p>
+        <ul class="list-social-network">
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/instagram.svg"
+                alt="instagram"
+              />
+            </a>
+          </li>
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/twitter.svg"
+                alt="twitter"
+              />
+            </a>
+          </li>
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+          </li>
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/linkedin.svg"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-form"></div>
+      <p class="creator">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>

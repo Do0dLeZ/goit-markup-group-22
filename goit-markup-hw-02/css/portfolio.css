@@ -1,19 +1,56 @@
 @import "./colors.css";
 @import "./fonts.css";
 
-.section-nav-list {
-  display: flex;
-  width: 611px;
-  margin: auto;
-  margin-bottom: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.section-nav-item:not(:last-child) {
-  margin-right: 8px;
+/* main configuration */
+
+.body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--text-color-primery);
 }
+
+.link {
+  text-decoration: none;
+  color: var(--text-color-primery);
+}
+
+/* header */
+
+.logo-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-link > .logo-first-word {
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.active-page {
+  color: var(--accent-color);
+}
+
+/* section portfolio */
 
 .item-link {
-  display: block;
   padding: 6px 22px;
 
   background-color: var(--btn-background-color);
@@ -23,24 +60,6 @@
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-}
-
-.active-filter {
-  background-color: var(--accent-color);
-  color: var(--title-primery-color);
-}
-
-.portfolio-list {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.portfolio-list-item:not(:nth-last-child(3n + 1)) {
-  margin-right: 30px;
-}
-
-.portfolio-list-item:nth-last-child(-n + 3) {
-  margin-bottom: 30px;
 }
 
 .item-title {
@@ -53,4 +72,20 @@
 .item-desc {
   font-size: 16px;
   line-height: 30px;
+}
+
+/* footer */
+
+.footer {
+  color: var(--footer-primery-color);
+}
+
+.footer-item-title {
+  font-weight: bold;
+  color: var(--title-primery-color);
+  text-transform: uppercase;
+}
+
+.footer > .adress {
+  color: var(--footer-secondary-color);
 }

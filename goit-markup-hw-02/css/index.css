@@ -1,22 +1,62 @@
 @import "./colors.css";
+
 @import "./fonts.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* main configuration */
+
+.body {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: var(--text-color-primery);
+}
+
+.link {
+  text-decoration: none;
+  color: var(--text-color-primery);
+}
+
+/* header */
+
+.logo-link {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-link > .logo-first-word {
+  color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.active-page {
+  color: var(--accent-color);
+}
 
 /* hero */
 
-.hero {
-  height: 600px;
-  background-color: #ff6347;
-}
-
 .hero-title {
-  display: block;
-  padding: 0;
-  width: 696px;
-  margin: auto;
-
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  /* or 136% */
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -25,10 +65,6 @@
 }
 
 .order-service-link {
-  display: block;
-  margin: auto;
-  width: 200px;
-
   padding: 10px 32px;
   background: var(--accent-color);
   color: var(--title-primery-color);
@@ -48,7 +84,6 @@
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  margin-bottom: 50px;
 }
 
 /* section advantage */
@@ -63,32 +98,6 @@
   font-weight: normal;
   line-height: 24px;
   color: var(--text-color-secondary);
-}
-
-.advantages-items {
-  display: flex;
-}
-
-.advantages-item {
-  width: 270px;
-}
-
-.advantages-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-/* what we do */
-
-.list-services {
-  display: flex;
-}
-
-.item-service {
-  width: 380px;
-}
-
-.item-service:not(:last-child) {
-  margin-right: 30px;
 }
 
 /* section our team */
@@ -108,32 +117,18 @@
   color: var(--text-color-secondary);
 }
 
-.list-our-team {
-  display: flex;
+/* footer */
+
+.footer {
+  color: var(--footer-primery-color);
 }
 
-.item-team {
-  width: 270px;
+.footer-item-title {
+  font-weight: bold;
+  color: var(--title-primery-color);
+  text-transform: uppercase;
 }
 
-.item-team:not(:last-child) {
-  margin-right: 30px;
-}
-
-/* section clients */
-
-.list-clients {
-  display: flex;
-}
-
-.item-client:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients-link {
-  display: block;
-  width: 170px;
-  height: 90px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+.footer > .adress {
+  color: var(--footer-secondary-color);
 }

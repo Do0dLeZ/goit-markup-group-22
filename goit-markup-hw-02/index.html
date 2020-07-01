@@ -4,20 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/normalizer.css" />
-    <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/footer.css" />
     <title>Document</title>
   </head>
   <body class="body">
     <!-- Header -->
-    <header class="header container">
-      <a href="" class="logo-link link"
-        ><span class="logo-first-word">Web</span> Studio
-      </a>
+
+    <header class="head">
       <nav class="navigation">
-        <ul class="nav-items all-list">
+        <a href="" class="logo-link link"
+          ><span class="logo-first-word">Web</span> Studio
+        </a>
+        <ul class="nav-items">
           <li class="nav-item">
             <a href="./index.html" class="nav-link link active-page">Студия</a>
           </li>
@@ -29,12 +27,26 @@
           </li>
         </ul>
       </nav>
-      <ul class="contact-items all-list">
+      <ul class="contact-items">
         <li class="contscts-item">
-          <a href="" class="nav-link email-icon link"> info@devstudio.com</a>
+          <a href="" class="nav-link link"
+            ><img
+              src="./images/header/icon-email.svg"
+              class="contact-icon"
+              alt="email:"
+            />
+            info@devstudio.com</a
+          >
         </li>
         <li class="contscts-item">
-          <a href="" class="nav-link phone-icon link">+38 096 111 11 11</a>
+          <a href="" class="nav-link link"
+            ><img
+              src="./images/header/icon-phone.svg"
+              class="contact-icon"
+              alt="phone: "
+            />
+            +38 096 111 11 11</a
+          >
         </li>
       </ul>
     </header>
@@ -48,12 +60,12 @@
 
       <!-- Section Advantages -->
 
-      <section class="section container no-padding-bottom">
-        <ul class="advantages-items all-list">
-          <li class="advantages-item">
+      <section class="section">
+        <ul class="advantages-items">
+          <li class="advantages item">
             <div class="advantage-icon-wrapper">
               <img
-                src="./images/section-advantage/arial.svg"
+                src="./images/section-advantage/adtantage-arial.png"
                 alt="details"
                 class="advantage-img"
               />
@@ -64,7 +76,7 @@
               формированию позиции.
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages item">
             <div class="advantage-icon-wrapper">
               <img
                 src="./images/section-advantage/advantage-clock.png"
@@ -78,7 +90,7 @@
               влечет за собой.
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages item">
             <div class="advantage-icon-wrapper">
               <img
                 src="./images/section-advantage/advanttage-graph.png"
@@ -92,7 +104,7 @@
               степени обуславливает.
             </p>
           </li>
-          <li class="advantages-item">
+          <li class="advantages item">
             <div class="advantage-icon-wrapper">
               <img
                 src="./images/section-advantage/advantage-astronaut.png"
@@ -111,9 +123,9 @@
 
       <!-- Section What We Do -->
 
-      <section class="section container">
+      <section class="section">
         <h2 class="section-title">Чем мы занимаемся</h2>
-        <ul class="list-services all-list">
+        <ul class="list-services">
           <li class="item-service">
             <img
               src="./images/section-service/laptop.png"
@@ -140,9 +152,9 @@
 
       <!-- Section Our Team -->
 
-      <section class="section container">
+      <section class="section">
         <h2 class="section-title">Наша команда</h2>
-        <ul class="list-our-team all-list">
+        <ul class="list-our-team">
           <li class="item-team">
             <img
               src="./images/our-team/john-smith.png"
@@ -324,36 +336,36 @@
 
       <!-- Section Clietns -->
 
-      <section class="section container">
+      <section class="section">
         <h2 class="section-title">Постоянные клиенты</h2>
-        <ul class="list-clients all-list">
+        <ul class="list-clients">
           <li class="item-client">
-            <a href="" class="clients-link"
+            <a href=""
               ><img src="./images/clients-logo/client-1.svg" alt="client"
             /></a>
           </li>
           <li class="item-client">
-            <a href="" class="clients-link"
+            <a href=""
               ><img src="./images/clients-logo/client-2.svg" alt="client"
             /></a>
           </li>
           <li class="item-client">
-            <a href="" class="clients-link"
+            <a href=""
               ><img src="./images/clients-logo/client-3.svg" alt="client"
             /></a>
           </li>
           <li class="item-client">
-            <a href="" class="clients-link"
+            <a href=""
               ><img src="./images/clients-logo/client-4.svg" alt="client"
             /></a>
           </li>
           <li class="item-client">
-            <a href="" class="clients-link"
+            <a href=""
               ><img src="./images/clients-logo/client-5.svg" alt="client"
             /></a>
           </li>
           <li class="item-client">
-            <a href="" class="clients-link"
+            <a href=""
               ><img src="./images/clients-logo/client-6.svg" alt="client"
             /></a>
           </li>
@@ -364,54 +376,64 @@
     <!-- Footer -->
 
     <footer class="footer">
-      <div class="container footer-flex">
-        <div class="footer-address">
-          <a href="/" class="logo-link link">
-            <span class="logo-first-word">Web</span> Studio
-          </a>
-          <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
-          <p class="email">info@example.com</p>
-          <p class="phone-number">+38 099 111 11 11</p>
-        </div>
-        <div class="footer-info">
-          <p class="footer-item-title">присоединяйтесь</p>
-          <ul class="list-social-network">
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/instagram.svg"
-                  alt="instagram"
-                />
-              </a>
-            </li>
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/twitter.svg"
-                  alt="twitter"
-                />
-              </a>
-            </li>
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/facebook.svg"
-                  alt="facebook"
-                />
-              </a>
-            </li>
-            <li class="item-social-network">
-              <a href="" class="link-social-network">
-                <img
-                  src="./images/social-network-icons/linkedin.svg"
-                  alt="linkedin"
-                />
-              </a>
-            </li>
+      <!-- <ul class="list-footer"> -->
+      <!-- Contact Info -->
+      <!-- <li class="footer-items"></li> -->
+      <!-- Social Networks -->
+      <!-- <li class="footer-items">
+          
           </ul>
-        </div>
-        <div class="footer-form"></div>
+        </li> -->
+      <!-- TODO Form -->
+      <!-- <li class="footer-items"></li>
+      </ul> -->
+      <div class="footer-address">
+        <a href="/" class="logo-link link">
+          <span class="logo-first-word">Web</span> Studio
+        </a>
+        <p class="adress">г. Киев, пр-т Леси Украинки, 26</p>
+        <p class="email">info@example.com</p>
+        <p class="phone-number">+38 099 111 11 11</p>
       </div>
+      <div class="footer-info">
+        <p class="footer-item-title">присоединяйтесь</p>
+        <ul class="list-social-network">
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/instagram.svg"
+                alt="instagram"
+              />
+            </a>
+          </li>
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/twitter.svg"
+                alt="twitter"
+              />
+            </a>
+          </li>
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/facebook.svg"
+                alt="facebook"
+              />
+            </a>
+          </li>
+          <li class="item-social-network">
+            <a href="" class="link-social-network">
+              <img
+                src="./images/social-network-icons/linkedin.svg"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-form"></div>
+      <p class="creator">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
