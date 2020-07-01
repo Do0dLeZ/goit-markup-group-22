@@ -120,6 +120,10 @@
   margin-right: 30px;
 }
 
+.list-social-network {
+  display: flex;
+}
+
 /* section clients */
 
 .list-clients {
