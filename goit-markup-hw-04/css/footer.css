@@ -1,0 +1,25 @@
+@import "./colors.css";
+@import "./fonts.css";
+
+.footer {
+  color: var(--footer-primery-color);
+  background-color: var(--footer-background-color);
+}
+
+.footer .logo-link {
+  color: var(--footer-secondary-color);
+}
+
+.footer-flex {
+    display: flex;
+}
+
+.footer-item-title {
+  font-weight: bold;
+  color: var(--title-primery-color);
+  text-transform: uppercase;
+}
+
+.footer > .adress {
+  color: var(--footer-secondary-color);
+}

@@ -1,0 +1,14 @@
+:root {
+  /* text */
+  --text-color-primery: #212121;
+  --text-color-secondary: #757575;
+  --title-primery-color: #ffffff;
+  --title-secondary-color: #212121;
+  --accent-color: #2196f3;
+  --footer-primery-color: rgba(255, 255, 255, 0.6);
+  --footer-secondary-color: #ffffff;
+  /* backgrounds */
+  --footer-background-color: #2f303a;
+  --section-background-color: #f5f4fa;
+  --btn-background-color: #f5f4fa;
+}
