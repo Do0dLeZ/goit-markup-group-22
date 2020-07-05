@@ -9,7 +9,7 @@
 
 .container {
   width: 1200px;
-  padding: 94px 15px;
+  /* padding: 94px 15px; */
   margin: auto;
 }
 
@@ -28,7 +28,6 @@
   color: var(--text-color-primery);
 }
 
-ul,
 .all-list {
   list-style: none;
 }
@@ -39,4 +38,16 @@ ul,
 
 .list-social-network {
   display: flex;
+}
+
+.social-icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.i-instagram {
+  background-image: url("../images/social-network-icons/instagram.svg");
 }

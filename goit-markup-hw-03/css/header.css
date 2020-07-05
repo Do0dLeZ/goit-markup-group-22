@@ -41,7 +41,8 @@
   color: var(--accent-color);
 }
 
-.nav-items {
+.nav-list,
+.contacts-list {
   display: flex;
 }
 
@@ -72,12 +73,11 @@
   background-position: center;
 }
 
-.contact-items {
-  display: flex;
+.contacts-list {
   margin-left: auto;
 }
 
-.nav-item:not(:last-child) {
+.nav-list-item:not(:last-child) {
   margin-right: 50px;
 }
 
