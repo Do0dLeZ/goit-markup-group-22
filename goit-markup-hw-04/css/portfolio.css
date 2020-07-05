@@ -12,11 +12,13 @@
   margin-right: 8px;
 }
 
-.item-link {
-  display: block;
+.filter-btn-item {
+  /* display: block; */
   padding: 6px 22px;
+  outline: none;
+  border: none;
 
-  background-color: var(--btn-background-color);
+  /* background-color: var(--btn-background-color); */
   border-radius: 4px;
 
   font-weight: 500;
@@ -28,11 +30,11 @@
 
   transition-property: background-color;
   transition-duration: 250ms;
-  transition-timing-function: ubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item-link:hover,
-.item-link:focus {
+.filter-btn-item:hover,
+.filter-btn-item:focus {
   background-color: var(--accent-color);
   color: var(--title-primery-color);
 }
