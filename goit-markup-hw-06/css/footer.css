@@ -40,17 +40,16 @@
   margin-bottom: 20px;
 }
 
-.footer > .adress {
+.adress {
   color: var(--footer-secondary-color);
-}
-
-.adress,
-.email {
   margin-bottom: 9px;
 }
 
-.adress {
-  color: var(--footer-secondary-color);
+.footer-link {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 9px;
+  color: var(--footer-primery-color);
 }
 
 .item-social-network.footer-icon {
@@ -90,7 +89,7 @@
   font-size: 16px;
   line-height: 20px;
 
-  color: rgba(255, 255, 255, 0.6);;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .input-email:hover,
